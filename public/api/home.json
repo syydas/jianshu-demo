@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "data": {
+    "topicList": [{
+      "id": 1,
+      "title": "社会热点",
+      "imgUrl": "../../src/statics//xiaozhan.jpg"
+    }, {
+      "id": 2,
+      "title": "娱乐热点",
+      "imgUrl": "../../src/statics//xiaozhan.jpg"
+    }],
+    "articleList": [{
+      "id": 1,
+      "title": "xiaozhan",
+      "desc": "bjyxszd!",
+      "imgUrl": "../../src/statics//xiaozhan.jpg"
+    },{
+      "id": 2,
+      "title": "yibo",
+      "desc": "zswwszd!",
+      "imgUrl": "../../src/statics//xiaozhan.jpg"
+    }],
+    "recommendList":[{
+      "id": 1,
+      "imgUrl": "../../src/statics//xiaozhan.jpg"
+    },{
+      "id": 2,
+      "imgUrl": "../../src/statics//xiaozhan.jpg"
+    }]
+  }
+}
