@@ -33,6 +33,7 @@ export const changePage = (page) => ({
 export const getList = () => {
   return(dispatch) => {
     axios.get('/api/headerList.json').then((res) => {
+      console.log('jjj')
       const data = res.data;
       dispatch(changeList(data.data));
     }).catch(() => {

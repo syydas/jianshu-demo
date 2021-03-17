@@ -4,6 +4,7 @@ import {
   TopicWrapper,
   TopicItem
 } from '../style'
+import imgUrl from '../../../statics/xiaozhan.jpg'
 
 class Topic extends PureComponent {
   render() {
@@ -14,7 +15,7 @@ class Topic extends PureComponent {
             <TopicItem key={item.get('id')}>
               <img 
                 className='topic-pic'
-                src={item.get('imgUrl')}
+                src={imgUrl}
                 alt=''
               />
               {item.get('title')}
